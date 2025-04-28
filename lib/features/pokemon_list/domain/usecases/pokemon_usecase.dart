@@ -1,5 +1,6 @@
-import 'package:cleanarch_sample/core/utils/usecase.dart';
-import 'package:cleanarch_sample/core/utils/result.dart';
+import 'package:cleanarch_sample/core/usecases/no_params.dart';
+import 'package:cleanarch_sample/core/usecases/use_case.dart';
+import 'package:cleanarch_sample/core/models/result.dart';
 
 import '../entities/pokemon.dart';
 import '../repositories/pokemon_repository.dart';

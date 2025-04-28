@@ -1,6 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:cleanarch_sample/core/utils/usecase.dart';
-import 'package:cleanarch_sample/core/utils/result.dart';
+
+import 'package:cleanarch_sample/core/usecases/no_params.dart';
+import 'package:cleanarch_sample/core/models/result.dart';
 import 'package:cleanarch_sample/features/pokemon_list/domain/usecases/pokemon_usecase.dart';
 
 import 'pokemon_event.dart';

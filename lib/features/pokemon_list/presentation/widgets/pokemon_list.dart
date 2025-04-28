@@ -1,5 +1,6 @@
-import 'package:cleanarch_sample/features/pokemon_list/domain/entities/pokemon.dart';
 import 'package:flutter/material.dart';
+
+import 'package:cleanarch_sample/features/pokemon_list/domain/entities/pokemon.dart';
 
 class PokemonList extends StatelessWidget {
   const PokemonList({super.key, required this.pokemon});

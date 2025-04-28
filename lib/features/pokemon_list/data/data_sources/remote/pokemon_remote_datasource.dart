@@ -1,12 +1,12 @@
-import 'package:cleanarch_sample/core/constants/api_constants.dart';
 import 'package:cleanarch_sample/core/network/dio_client.dart';
 import 'package:cleanarch_sample/features/pokemon_list/data/models/pokemon_model.dart';
 import 'package:cleanarch_sample/features/pokemon_list/domain/entities/pokemon.dart';
+import 'package:cleanarch_sample/shared/constants/api_constants.dart';
 
-class PokemonApiService {
+class PokemonRemoteDatasource {
   final DioClient _dioClient;
 
-  const PokemonApiService(this._dioClient);
+  const PokemonRemoteDatasource(this._dioClient);
 
   Future<List<PokemonEntity>> getPokemonList() async {
     try {
